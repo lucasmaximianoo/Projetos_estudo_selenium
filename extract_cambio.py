@@ -57,7 +57,7 @@ df.columns = ['Cidade', 'Dólar turismo','IOF: 1,1%','Taxa operacional', 'Valor 
 sorted_data = df.sort_values(by='Valor final', ascending=True)
 
 sorted_data.to_excel("C:/Users/User/Downloads/cambio2.xlsx")
-print("Salvei o arquivo")
+print("ARQUIVO SALVO!!!")
     
 
 
